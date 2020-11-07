@@ -31,7 +31,9 @@
   font-family: 'Montserrat';
   font-weight: 600;
 }
+
 #countryInput, .capital span, .population span{
+  font-family: 'Montserrat';
   font-weight:500;
 }
 
@@ -45,5 +47,11 @@
 
 .info ul li{
   font-weight:500;
+}
+
+.list{
+  font-family: 'Montserrat';
+  font-weight:500;
+  font-size: medium;
 }
 /* style */
