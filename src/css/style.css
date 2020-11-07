@@ -1,4 +1,48 @@
-body {
-  background-color: black;
-  color: wheat;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,600;1,700&display=swap');
+
+#countryInput{
+  outline: none;
+}
+
+.country{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.main{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title{
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.info{
+  margin-right: 20px;
+}
+
+.head, .title, .capital, .population, .info ul{
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+#countryInput, .capital span, .population span{
+  font-weight:500;
+}
+
+.info ul{
+  padding: 0;
+}
+
+.info ul li{
+  margin-left: 20px;
+}
+
+.info ul li{
+  font-weight:500;
 }
